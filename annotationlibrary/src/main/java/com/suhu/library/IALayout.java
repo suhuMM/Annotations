@@ -1,4 +1,4 @@
-package com.suhu.app.core;
+package com.suhu.library;
 
 import android.view.View;
 

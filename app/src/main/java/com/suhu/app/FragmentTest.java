@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.suhu.app.base.BaseFragment;
-import com.suhu.app.core.Annotation;
-import com.suhu.app.core.BindView;
-import com.suhu.app.core.SetLayout;
+import com.suhu.library.Annotation;
+import com.suhu.library.BindView;
+import com.suhu.library.SetLayout;
 
 /**
  * Created by suhu on 2017/8/14.

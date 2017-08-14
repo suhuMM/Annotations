@@ -7,15 +7,15 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.suhu.app.base.BaseActivity;
-import com.suhu.app.core.BindView;
-import com.suhu.app.core.SetLayout;
+import com.suhu.library.BindView;
+import com.suhu.library.SetLayout;
 
 @SetLayout(R.layout.activity_main)
 public class MainActivity extends BaseActivity implements View.OnClickListener{
     @BindView(R.id.text)
     private TextView textView;
 
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

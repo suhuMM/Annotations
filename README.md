@@ -3,6 +3,7 @@
 --------
 1.在工程的build.gradle文件添加：maven{url 'https://jitpack.io'}
 例如：
+<br />
 allprojects {<br />
     repositories {<br />
       jcenter()<br />
@@ -10,9 +11,7 @@ allprojects {<br />
    }<br />
 }<br />
 2.在module的build.gradle文件添加：compile 'com.github.suhuMM:Annotations:v1.0.0'
-==
 例如：
-==
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {

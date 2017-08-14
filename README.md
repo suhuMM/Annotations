@@ -3,12 +3,11 @@
 --------
 1.在工程的build.gradle文件添加：maven{url 'https://jitpack.io'}
 例如：
-==
-<br>allprojects {<br />
-    <br>repositories {<br />
-        <br>jcenter()<br />
-        <br>maven{url 'https://jitpack.io'}<br />
-<br>    }<br />
+allprojects {<br />
+    repositories {<br />
+      jcenter()<br />
+        maven{url 'https://jitpack.io'}<br />
+   }<br />
 }<br />
 2.在module的build.gradle文件添加：compile 'com.github.suhuMM:Annotations:v1.0.0'
 ==

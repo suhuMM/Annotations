@@ -8,10 +8,11 @@
 ### 在activity中使用：<br/>
 1.实现接口：IALayoy <br/>
 2.在onCreate方法中初始化：Annotation.init(this);<br/>
+![](https://github.com/suhuMM/Annotations/edit/master/image/activity.png)<br/>
 
 ### 在fragment中使用：<br/>
 1.实现接口：IFLayout <br/>
 2.重新方法：inflateView 并返回：return View.inflate(getActivity(), layout, null); <br/>
 3.在onCreateView方法中初始化：Annotation.bind(this); <br/>
-
+![](https://github.com/suhuMM/Annotations/edit/master/image/fragment.png)<br/>
 ## 三、方法介绍

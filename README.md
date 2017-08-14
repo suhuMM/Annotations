@@ -6,10 +6,10 @@
 例如：
 <br />
 >allprojects {<br />
-    >>repositories {<br />
-      >>>jcenter()<br />
-       >>> maven{url 'https://jitpack.io'}<br />
-   }<br />
+>>repositories {<br />
+>>>jcenter()<br />
+>>> maven{url 'https://jitpack.io'}<br />
+>}<br />
 }<br />
 2.在module的build.gradle文件添加：compile 'com.github.suhuMM:Annotations:v1.0.0'
 例如：

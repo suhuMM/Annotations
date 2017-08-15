@@ -21,7 +21,7 @@
 
 ### 在fragment中使用：<br/>
 1.实现接口：IFLayout <br/>
-2.重新方法：inflateView 并返回：return View.inflate(getActivity(), layout, null); <br/>
+2.重写方法：inflateView 并返回：return View.inflate(getActivity(), layout, null); <br/>
 3.在onCreateView方法中初始化：Annotation.bind(this); <br/>
 ![](https://github.com/suhuMM/Annotations/raw/master/image/fragment.png)<br/>
 ## 四、方法介绍

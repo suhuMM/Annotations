@@ -25,3 +25,7 @@
 3.在onCreateView方法中初始化：Annotation.bind(this); <br/>
 ![](https://github.com/suhuMM/Annotations/raw/master/image/fragment.png)<br/>
 ## 四、方法介绍
+### Activity初始化方法：init()
+![](https://github.com/suhuMM/Annotations/raw/master/image/init.png)<br/>
+### Fragment初始化方法：bind()
+![](https://github.com/suhuMM/Annotations/raw/master/image/bind.png)<br/>

@@ -7,13 +7,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  封装BaseFragment时，将inflateView()方法封装进去，但是不要将Annotation.bind(this)封装到onCreateView()中，因为onCreateView()需要返回一个view对象，这个时候需要将Annotation.bind()返回的View给onCreateView();<br/>
 
 ## 二、引入方法：
-### 方式一：
+#### 方式一：
 在module的build.gradle文的dependencies目录下件添加：compile 'com.suhu:Annotations:v1.0.0'<br/>
 （在Android studio默认的jcenter库中，所以只需一步即可）
-### 方式二：
+#### 方式二：
 1.在工程的build.gradle文件的repositories目录下添加：maven{url 'https://jitpack.io'}<br/>
 2.在module的build.gradle文的dependencies目录下件添加：compile 'com.github.suhuMM:Annotations:v1.0.0'<br/>
-### 针对eclipse用户：
+#### 针对eclipse用户：
 使用eclipse的同学请在Annotations/app/libs/目录下复制jar包：annotation.jar<br/>
 
 ## 三、使用方法：

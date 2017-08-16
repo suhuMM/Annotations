@@ -32,4 +32,4 @@
 ![](https://github.com/suhuMM/Annotations/raw/master/image/bind.png)<br/>
 ## 五、版本信息
 ### v1.0.0版本信息：
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v1.0.0也是最初始版本，该版本主要有两大模块：1.布局加载（setLayout注解）2.控件注解（bindView）
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v1.0.0也是最初始版本，该版本主要有两大模块：1.布局加载（setLayout注解）2.控件加载（bindView注解）
